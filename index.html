@@ -11,56 +11,118 @@
   <!-- Navigation Bar -->
   <nav class="navbar">
     <div class="nav-container">
-      <div class="nav-logo">
-        <a href="#home">JC</a>
-      </div>
+      <a href="#home" class="nav-logo">JC</a>
       <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#skills" class="nav-link">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a href="#resume" class="nav-link">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">Jagadeesh C</h1>
-      <p class="hero-subtitle">Cybersecurity & AI Enthusiast | Fresher</p>
-      <div class="social-links">
-        <a href="https://github.com/jagadeeshc123" target="_blank" rel="noopener noreferrer" class="social-icon">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/jagadeesh-c-621b002a8/" target="_blank" rel="noopener noreferrer" class="social-icon">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Jagadeeshc3004@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon">
-          <i class="fas fa-envelope"></i>
-        </a>
+    <canvas id="particleCanvas" class="particle-canvas"></canvas>
+    
+    <div class="hero-glass-container">
+      <!-- Floating Planets and Rocks inside container -->
+      <div class="space-objects">
+        <!-- Planets -->
+        <div class="planet mars"></div>
+        <div class="planet saturn"></div>
+        <div class="planet jupiter"></div>
+        
+        <!-- Tiny Rocks -->
+        <div class="tiny-rock rock-1"></div>
+        <div class="tiny-rock rock-2"></div>
+        <div class="tiny-rock rock-3"></div>
+        <div class="tiny-rock rock-4"></div>
+        <div class="tiny-rock rock-5"></div>
+        <div class="tiny-rock rock-6"></div>
+        <div class="tiny-rock rock-7"></div>
+        <div class="tiny-rock rock-8"></div>
+        <div class="tiny-rock rock-9"></div>
+        <div class="tiny-rock rock-10"></div>
+        <div class="tiny-rock rock-11"></div>
+        <div class="tiny-rock rock-12"></div>
+        <div class="tiny-rock rock-13"></div>
+        <div class="tiny-rock rock-14"></div>
+        <div class="tiny-rock rock-15"></div>
+        <div class="tiny-rock rock-16"></div>
+        <div class="tiny-rock rock-17"></div>
+        <div class="tiny-rock rock-18"></div>
+        <div class="tiny-rock rock-19"></div>
+        <div class="tiny-rock rock-20"></div>
+        <div class="tiny-rock rock-21"></div>
+        <div class="tiny-rock rock-22"></div>
+        <div class="tiny-rock rock-23"></div>
+        <div class="tiny-rock rock-24"></div>
+        <div class="tiny-rock rock-25"></div>
+        <div class="tiny-rock rock-26"></div>
+        <div class="tiny-rock rock-27"></div>
+        <div class="tiny-rock rock-28"></div>
+        <div class="tiny-rock rock-29"></div>
+        <div class="tiny-rock rock-30"></div>
       </div>
-      <a href="#about" class="cta-button">Explore My Work</a>
+      
+      <div class="hero-content-wrapper">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span class="badge-text">Welcome to my universe</span>
+        </div>
+        
+        <h1 class="hero-title-new">
+          Hello, I'm <span class="hero-name-glow">Jagadeesh C</span>
+        </h1>
+        
+        <div class="hero-skills-container">
+          <span class="skill-badge skill-cyber">
+            <i class="fas fa-lock"></i> Cybersecurity
+          </span>
+          <span class="skill-badge skill-ai">
+            <i class="fas fa-brain"></i> AI Enthusiast
+          </span>
+          <span class="skill-badge skill-fresher">
+            <i class="fas fa-rocket"></i> Fresher
+          </span>
+        </div>
+        
+
+        <div class="hero-buttons">
+          <a href="#about" class="hero-btn hero-btn-primary">
+            <span>Learn More</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        
+        <div class="social-links-new">
+          <a href="https://github.com/jagadeeshc123" target="_blank" rel="noopener noreferrer" class="social-icon-new">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/jagadeesh-c-621b002a8/" target="_blank" rel="noopener noreferrer" class="social-icon-new">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Jagadeeshc3004@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon-new">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
+    <canvas id="aboutCanvas" class="about-canvas"></canvas>
+    <div class="about-shapes">
+      <div class="floating-dot dot-1"></div>
+      <div class="floating-dot dot-2"></div>
+      <div class="floating-dot dot-3"></div>
+      <div class="floating-dot dot-4"></div>
+      <div class="floating-dot dot-5"></div>
+      <div class="floating-dot dot-6"></div>
+    </div>
     <div class="container">
       <h2 class="section-title">About Me</h2>
       <p class="about-text">
@@ -94,6 +156,15 @@
 
   <!-- Skills Section -->
   <section id="skills" class="skills">
+    <canvas id="skillsCanvas" class="section-canvas"></canvas>
+    <div class="section-shapes">
+      <div class="floating-dot dot-1"></div>
+      <div class="floating-dot dot-2"></div>
+      <div class="floating-dot dot-3"></div>
+      <div class="floating-dot dot-4"></div>
+      <div class="floating-dot dot-5"></div>
+      <div class="floating-dot dot-6"></div>
+    </div>
     <div class="container">
       <h2 class="section-title">Skills & Competencies</h2>
       
@@ -172,6 +243,15 @@
 
   <!-- Resume Section -->
   <section id="resume" class="resume">
+    <canvas id="resumeCanvas" class="section-canvas"></canvas>
+    <div class="section-shapes">
+      <div class="floating-dot dot-1"></div>
+      <div class="floating-dot dot-2"></div>
+      <div class="floating-dot dot-3"></div>
+      <div class="floating-dot dot-4"></div>
+      <div class="floating-dot dot-5"></div>
+      <div class="floating-dot dot-6"></div>
+    </div>
     <div class="container">
       <h2 class="section-title">Resume</h2>
       <div class="resume-content">
@@ -192,8 +272,17 @@
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
+    <canvas id="contactCanvas" class="section-canvas"></canvas>
+    <div class="section-shapes">
+      <div class="floating-dot dot-1"></div>
+      <div class="floating-dot dot-2"></div>
+      <div class="floating-dot dot-3"></div>
+      <div class="floating-dot dot-4"></div>
+      <div class="floating-dot dot-5"></div>
+      <div class="floating-dot dot-6"></div>
+    </div>
     <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
+      <h2 class="section-title">Contact</h2>
       
       <div class="contact-wrapper">
         <!-- Contact Information -->
